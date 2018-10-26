@@ -8,6 +8,7 @@ import (
 	"strings"
 
 	"github.com/aerth/tabs/htmlparse"
+	"github.com/aerth/tabs/jsparse"
 )
 
 func main() {
@@ -18,8 +19,10 @@ func main() {
 		if err != nil {
 			log.Fatalln(err)
 		}
-		b, err := htmlparse.Parse(f)
+		b, err := jsparse.Parse(f)
 		if err != nil {
+			f.Seek(0, 0)
+			b, err = htmlparse.Parse(f)
 			log.Fatalln(err)
 		}
 		filename = strings.TrimSuffix(filename, ".html")

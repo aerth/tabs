@@ -1,2 +1,8 @@
+github.com/cardigann/go-cloudflare-scraper v0.0.0-20170630233936-6b7caee8e65b h1:wDrpJaWVxyU3ljEROoIEkdcLDaTgQHgERR+Gd68gv8M=
+github.com/cardigann/go-cloudflare-scraper v0.0.0-20170630233936-6b7caee8e65b/go.mod h1:yzwU7pub3vYvHwvYOpbXfJ5OC8srFoqFmij8ZtQpymI=
+github.com/robertkrimen/otto v0.0.0-20180617131154-15f95af6e78d h1:1VUlQbCfkoSGv7qP7Y+ro3ap1P1pPZxgdGVqiTVy5C4=
+github.com/robertkrimen/otto v0.0.0-20180617131154-15f95af6e78d/go.mod h1:xvqspoSXJTIpemEonrMDFq6XzwHYYgToXWj5eRX1OtY=
 golang.org/x/net v0.0.0-20181023162649-9b4f9f5ad519 h1:x6rhz8Y9CjbgQkccRGmELH6K+LJj7tOoh3XWeC1yaQM=
 golang.org/x/net v0.0.0-20181023162649-9b4f9f5ad519/go.mod h1:mL1N/T3taQHkDXs73rZJwtUhF3w3ftmwwsq0BUmARs4=
+gopkg.in/sourcemap.v1 v1.0.5 h1:inv58fC9f9J3TK2Y2R1NPntXEn3/wjWHkonhIUODNTI=
+gopkg.in/sourcemap.v1 v1.0.5/go.mod h1:2RlvNNSMglmRrcvhfuzp4hQHwOtjxlbjX7UPY/GXb78=

@@ -7,4 +7,7 @@ clean:
 test:
 	go test ./...
 
+install:
+	go install ./cmd/tablint
+
 .PHONY: tablint clean
